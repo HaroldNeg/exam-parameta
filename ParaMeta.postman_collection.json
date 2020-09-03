@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "e8149613-375b-42cb-bbb8-0ea7fc0c5d6b",
+		"name": "ParaMeta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EmployeeRegister",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"names\": \"Harold Fernando\",\r\n\t\r\n\t\"surnames\": \"Negrete Pinilla\",\r\n\t\r\n\t\"documentType\": \"CC\",\r\n\t\r\n\t\"documentNumber\": \"1070613632\",\r\n\t\r\n\t\"BirthDate\": \"1994-07-01\",\r\n\t\r\n\t\"linkingCompanyDate\": \"2020-09-01\",\r\n\t\r\n\t\"positionCompany\": \"Developer Java\",\r\n\t\r\n\t\"salary\": \"2500000.0\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/employeeRegister",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employeeRegister"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
