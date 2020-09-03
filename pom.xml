@@ -97,7 +97,7 @@
 					<generatePackage>com.project.app.exam.consumingwebservice.wsdl</generatePackage>
 					<schemas>
 						<schema>
-							<url>http://localhost:8081/ws/employee.wsdl</url>
+							<url>https://exam-parameta-soap.herokuapp.com/ws/employee.wsdl</url>
 						</schema>
 					</schemas>
 				</configuration>
